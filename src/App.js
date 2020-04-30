@@ -1,8 +1,12 @@
 //引入react核心库
-  import React from 'react'
+  import React,{Component} from 'react'
 //定义组件，并暴露
-  export default class App extends React.Component{
+  export default class App extends Component{
     render(){
-      return <h2>Hello,ReactStaging</h2>
+      return (
+        <div>
+          <h2>Hello,ReactStaging</h2>
+        </div>
+      )
     }
   }
